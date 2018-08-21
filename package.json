@@ -1,0 +1,38 @@
+{
+  "name": "node-call-rscript",
+  "version": "0.0.1",
+  "description": "Call Rscripts from node.js passing JSON both ways.",
+  "main": "./src/main.js",
+  "scripts": {
+    "lint": "eslint src/**",
+    "test": "jest src",
+    "coverage": "jest --collectCoverageFrom=src/**.js --coverage src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffittschen/node-call-rscript.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "r",
+    "rscript",
+    "rlang"
+  ],
+  "author": {
+    "name": "Florian Fittschen",
+    "email": "ffittschen@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ffittschen/node-call-rscript/issues"
+  },
+  "homepage": "https://github.com/ffittschen/node-call-rscript#readme",
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.21.0",
+    "jest": "^23.5.0"
+  }
+}
